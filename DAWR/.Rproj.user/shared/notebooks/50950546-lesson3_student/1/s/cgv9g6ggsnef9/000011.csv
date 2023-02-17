@@ -1,0 +1,6 @@
+"0","qplot(x = www_likes, data=subset(pf, !is.na(gender)),"
+"0","      geom = 'freqpoly', color = gender) +"
+"0","  scale_x_continuous() +"
+"0","  scale_x_log10()"
+"2","[38;5;232mScale for [32mx[38;5;232m is already present.
+Adding another scale for [32mx[38;5;232m, which will replace the existing scale.[39m"

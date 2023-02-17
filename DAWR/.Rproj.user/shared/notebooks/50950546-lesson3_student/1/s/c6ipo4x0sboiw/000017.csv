@@ -1,0 +1,3 @@
+"0","qplot(x = www_likes, data=subset(pf, !is.na(gender)),"
+"0","      geom = 'freqpoly', color = gender) +"
+"0","  scale_x_continuous()"

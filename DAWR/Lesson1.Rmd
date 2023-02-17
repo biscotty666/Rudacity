@@ -1,0 +1,36 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+reddit <- read.csv('reddit.csv')
+
+table(reddit$employment.status)
+summary(reddit)
+str(reddit)
+```
+Unlike the video we need to convert the chr columns to factors
+```{r}
+reddit$age.range = as.factor(reddit$age.range)
+reddit[sapply(reddit, is.character)] <- 
+  lapply(reddit[sapply(reddit, is.character)], as.factor)
+levels(reddit$age.range)
+```
+```{r}
+library(ggplot2)
+qplot(data = reddit, x = age.range)
+```
+We need to assign an order to the age ranges so "Under 18" will be to the left
+
+```{r}
+reddit.order <- ordered(reddit, levels = c("Under 18","18-24","25-34","35-44","45-54","55-64","65 or Above","NA"))
+reddit.order
+```
+
+
+
+
+
+
+

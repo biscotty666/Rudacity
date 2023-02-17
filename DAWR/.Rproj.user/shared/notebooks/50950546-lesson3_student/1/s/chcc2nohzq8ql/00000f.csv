@@ -1,0 +1,5 @@
+"0","qplot(x = gender,, y = friend_count, "
+"0","      data=subset(pf, !is.na(gender)),"
+"0","      geom = 'boxplot') +"
+"0","  scale_y_continuous(limits = c(0, 1000))"
+"0",""

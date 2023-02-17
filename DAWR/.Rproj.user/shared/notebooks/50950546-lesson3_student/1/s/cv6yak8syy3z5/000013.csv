@@ -1,0 +1,7 @@
+"0","logScale <- qplot(x = log10(friend_count + 1), data = pf)"
+"0",""
+"0","countScale <- ggplot(aes(x = friend_count), data = pf) +"
+"0","  geom_histogram() +"
+"0","  scale_x_log10()"
+"0",""
+"0","grid.arrange(logScale, countScale, ncol = 2)"

@@ -1,0 +1,4 @@
+"0","ggplot(aes(x = friend_count), data = subset(pf, !is.na(gender))) +"
+"0","  geom_histogram() +"
+"0","  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +"
+"0","  facet_wrap(~gender)"

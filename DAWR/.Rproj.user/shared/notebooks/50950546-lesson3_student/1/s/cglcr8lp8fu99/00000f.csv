@@ -1,0 +1,5 @@
+"0","qplot(x = tenure/365, data = pf,"
+"0","      xlab = 'Number of years using Facebook',"
+"0","      ylab = 'Number of users in sample',"
+"0","      color = I('black'), fill = I('#F79420')) +"
+"0","  scale_x_continuous(breaks = seq(1, 7, 1), lim = c(0,7))"

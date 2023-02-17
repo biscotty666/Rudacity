@@ -1,0 +1,3 @@
+"0","ggplot(aes(x = friend_count), data = pf) +"
+"0","  geom_histogram() +"
+"0","  scale_x_continuous(limits = c(0, 1000))"

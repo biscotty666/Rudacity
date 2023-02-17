@@ -1,0 +1,2 @@
+"0","qplot(x = tenure, data = pf, binwidth = 30,"
+"0","      color = I('black'), fill = I('#099DD9'))"

@@ -1,0 +1,3 @@
+"0","ggplot(aes(x = age), data = pf) +"
+"0","  geom_histogram(binwidth = 1, fill = '#5760AB') +"
+"0","  scale_x_continuous(breaks = seq(0, 113, 5))"

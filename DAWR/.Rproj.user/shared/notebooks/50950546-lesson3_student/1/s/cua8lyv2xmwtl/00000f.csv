@@ -1,0 +1,6 @@
+"0","p1 <- ggplot(aes(x = friend_count), data = pf) +"
+"0","  geom_histogram()"
+"0","p2 <- p1 + scale_x_log10()"
+"0","p3 <- p1 + scale_x_sqrt()"
+"0",""
+"0","grid.arrange(p1, p2, p3, ncol = 1)"

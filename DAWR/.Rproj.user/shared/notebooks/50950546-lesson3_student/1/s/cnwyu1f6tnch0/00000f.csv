@@ -1,0 +1,2 @@
+"0","ggplot(aes(x = tenure), data = pf) +"
+"0","  geom_histogram(binwidth = 30, color = 'black', fill = '#099DD9')"
